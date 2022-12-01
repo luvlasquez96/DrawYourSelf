@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'com.example.drawyourself'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.example.drawyourself"
@@ -32,9 +32,14 @@ android {
     }
 }
 
+def lifecycle_version = "2.6.0-alpha01"
+def coroutines_version= "1.6.4"
+
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation "androidx.activity:activity-ktx:1.7.0-alpha02"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version")
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.7.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'

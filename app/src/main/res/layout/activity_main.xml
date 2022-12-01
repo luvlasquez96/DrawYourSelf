@@ -149,23 +149,30 @@
             android:id="@+id/ibBrush"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_margin="3dp"
+            android:layout_margin="5dp"
             android:scaleType="fitXY"
             android:src="@drawable/vector_drawing_brush_icon" />
         <ImageButton
             android:id="@+id/ibGallery"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_margin="3dp"
+            android:layout_margin="5dp"
             android:scaleType="fitXY"
             android:src="@drawable/gallery"/>
         <ImageButton
             android:id="@+id/ibUndo"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_margin="3dp"
+            android:layout_margin="5dp"
             android:scaleType="fitXY"
             android:src="@drawable/undo"/>
+        <ImageButton
+            android:id="@+id/ibSave"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/save"/>
 
     </LinearLayout>
 
